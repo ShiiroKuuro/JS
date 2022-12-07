@@ -1,0 +1,21 @@
+let rayon = 50;
+// alert(rayon);
+// let result = rayon + 10;
+// alert(result);
+// result = rayon - 5;
+// alert(result);
+// result = rayon * 2;
+// alert(result);
+// result = rayon / 10;
+// alert(result);
+// console.log("La tête à toto");
+
+let msg = "Le cercle est de rayon " + rayon;
+console.log(msg);
+let age = "44";
+age +=1;
+console.log(age);
+let agenbr = parseInt(age);
+agenbr +=1;
+console.log(agenbr);
+console.log(parseInt(age));
