@@ -1,2 +1,2 @@
 let temperatureCelsius = 0;
-let temperatureKelvin = 1;
+let temperatureKelvin = temperatureCelsius + 273.15;
