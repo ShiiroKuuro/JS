@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <fieldset class="fieldset">
+        <div class="boutons">
+            <button class="btnchiffre" value="0">0</button>
+            <button class="btnchiffre" value="1">1</button>
+            <button class="btnchiffre" value="2">2</button>
+            <button class="btnchiffre" value="3">3</button>
+            <button class="btnchiffre" value="4">4</button>
+            <button class="btnchiffre" value="5">5</button>
+            <button class="btnchiffre" value="6">6</button>
+            <button class="btnchiffre" value="7">7</button>
+            <button class="btnchiffre" value="8">8</button>
+            <button class="btnchiffre" value="9">9</button>
+            <button class="btnsigne" value=",">,</button>
+            <button class="btnclear" value="clear">Clear</button>
+        </div>
+
+        <div class="monnaiedepart">
+            <input type="radio" id="euro" name="monnaiedepart" value="euro">
+            <label for="euro">Euro</label>
+            <input type="radio" id="dollar" name="monnaiedepart" value="dollar">
+            <label for="dollar">Dollar</label>
+            <input type="radio" id="couronne" name="monnaiedepart" value="couronne">
+            <label for="couronne">Couronne</label>
+        </div>
+
+        <input type="text" name="saisie" class="saisie">
+        <button class="conversion" value="convertir">Convertir</button>
+
+        <div class="monnaiearrivee">
+            <input type="radio" id="euro" name="monnaiearrivee value="euro">
+            <label for="euro">Euro</label>
+            <input type="radio" id="dollar" name="monnaiearrivee" value="dollar">
+            <label for="dollar">Dollar</label>
+            <input type="radio" id="couronne" name="monnaiearrivee value="couronne">
+            <label for="couronne">Couronne</label>
+        </div>
+
+        <input type="text" name="valeurconvertie" class="valeurconvertie">
+
+    </fieldset>
+    
+    <script src="index.js" defer></script>
+</body>
+</html>
