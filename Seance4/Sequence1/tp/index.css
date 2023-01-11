@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#chargement{
+    background-color: lightblue;
+    min-height: 100vh;
+}
+#contenu{
+    background-color: whitesmoke;
+    display: none;
+}
